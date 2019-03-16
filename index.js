@@ -87,7 +87,7 @@ class Generator {
     }
 
     // supports all bigquery types except geopgraphy
-    // https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types#timestamp-type
+    // https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types
     _getType (key, val) {
 
         let types = constants.TYPES;
